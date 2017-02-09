@@ -1,0 +1,146 @@
+.textfield_bar{
+	-fx-min-width: 300;
+}
+
+.textfield_bar_setup{
+	-fx-min-width: 200;
+}
+
+.label{
+	-fx-text-fill: #000000;
+}
+.artist_label {
+	-fx-text-fill: #000000;
+	-fx-wrap-text: true;	
+	-fx-max-width: 400;
+}
+
+.title_label{
+	-fx-font-weight: bold;
+	-fx-text-fill: #000000;
+	-fx-wrap-text: true;	
+	-fx-max-width: 400;
+}
+
+.label_config{
+	-fx-font-weight:bold;
+	-fx-font-size: 15;
+	-fx-text-fill: #000000;
+}
+
+.label_menus{
+	-fx-font-size: 14;
+}
+
+.primary_box{
+	-fx-spacing: 20;
+	-fx-alignment: center;
+}
+
+.general_bar_menu{
+	-fx-spacing: 10;
+}
+
+.general_menu_with_label{
+	-fx-spacing: 5;
+	-fx-padding: 10,0,0,0;
+}
+
+.general_menu_with_label_setup{
+	-fx-spacing: 10;
+	-fx-alignment: center-left;
+	-fx-padding: 10;
+}
+
+.setup_label{
+	-fx-font-size: 16;
+	-fx-max-width:400;
+	-fx-font-weight: bold;
+}
+
+.entire_config_menu{
+	-fx-spacing: 5;
+	-fx-alignment: center;
+}
+
+.append_box{
+	-fx-alignment: center;
+}
+
+.add_and_submit{
+	-fx-spacing: 10;
+}
+
+.v_list_view{
+	-fx-spacing: 5;
+	-fx-alignment: top-center;
+		
+	-fx-min-width: 448;
+	-fx-max-width: 448;
+	
+	-fx-min-height: 498;
+	-fx-max-height: 498;
+}
+.v_list_view_scrollpane{
+	-fx-max-width: 450;
+	-fx-min-width: 450;
+	
+	-fx-max-height: 500;
+	-fx-min-height: 500;
+}
+
+.v_list_item{
+	-fx-background-color: #e6e6e6;
+	-fx-spacing: 5;
+}
+
+.v_list_view .v_list_item:hover:pressed{
+	-fx-background-color: #faedea;
+}
+
+.v_list_view .v_list_item:hover{
+	-fx-background-color: #f5dbd6;
+}
+
+.v_list_item_selected{
+	-fx-background-color: #f0c9c1;
+	-fx-spacing: 5;
+}
+
+.add_menu_options{
+	-fx-alignment: center;
+	-fx-padding: 1;
+	-fx-border-style: solid inside;
+	-fx-border-width: 2 0 2 0;
+	-fx-border-color: #b4b4b4;
+	-fx-spacing: 10;
+}
+
+.config_menu{
+	-fx-padding: 10;
+	-fx-border-style: solid inside;
+	-fx-border-width: 2;
+	-fx-border-color: #7a7877;
+	-fx-border-radius: 5;
+	-fx-spacing: 10;
+}
+
+.page_navigation_menu{
+	-fx-spacing: 10;
+	-fx-alignment: center;
+}
+
+.page_navigation_labels{
+	-fx-spacing: 2;
+	-fx-alignment: center;
+	-fx-min-width: 200;
+}
+
+.page_navigation_labels .label{
+	-fx-font-size: 13;
+
+}
+
+.disabled_text{
+	-fx-text-fill: #c1b9b5;
+}
